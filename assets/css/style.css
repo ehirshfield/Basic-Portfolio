@@ -1,0 +1,145 @@
+body {
+	width: 960px;
+}
+
+#containerHeader{
+	height: 75px;
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	position: relative;
+}
+
+#headerName {
+	position: relative;
+	float: left;
+	width: 350px;
+	height: 75px;
+	background: #4aaaa5;
+	vertical-align: middle;
+	text-align: center;
+	margin-left: 75px;
+
+}
+
+h1 {
+
+	color: #ffffff;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+
+}
+
+#headerLinkAbout {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: right;
+	padding-right: 15px;
+
+}
+
+#headerLinkPortfolio {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: right;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-left: solid 1px #cccccc;
+}
+
+#headerLinkContact {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: right;
+	padding-left: 15px;
+	border-left: solid 1px #cccccc;
+}
+
+#containerMain {
+	width: 960px;
+	height: 450px;
+	background-image: url(../images/new_year_background/new_year_background.png);
+	background-repeat: repeat;
+	overflow: auto;
+	
+}
+
+#divMain {
+
+	width: 650px;
+	height: 350px;
+	background: red;
+	border: 5px;
+	border-color: #dddddd;
+	float: left;
+	margin-left: 75px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	margin: 10px;
+}
+
+#lineBreakMain {
+	margin: 10px;
+
+}
+
+#profilePic {
+	float: left;
+	margin: 10px;
+
+}
+
+#firstParagraph {
+
+	color: #777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 24px;
+	
+}
+
+#secondParagraph {
+	color: #777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 24px;
+}
+
+#divConnect {
+	background: green;
+	float: right;
+	margin-top: 50px;
+
+
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+#lineBreakConnect {
+
+}
+
+#githubIcon {
+
+}
+
+#linkedinIcon {
+
+}
+
+#stackoverflowIcon {
+
+}
+
+
+#footer {
+	background: #666666;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	clear: both;
+	text-align: center;
+	position: relative;
+	height: 75px;
+	border-top:5px solid #4aaaa5;
+}
