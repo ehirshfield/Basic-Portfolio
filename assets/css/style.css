@@ -72,6 +72,15 @@ h1 {
 	
 }
 
+#containerMainPortfolio {
+	width: 960px;
+	height: 650px;
+	background-image: url(../images/new_year_background/new_year_background.png);
+	background-repeat: repeat;
+	overflow: auto;
+	
+}
+
 #divMainAbout {
 
 	width: 650px;
@@ -102,7 +111,18 @@ h1 {
 }
 
 #divMainPortfolio {
-
+	width: 650px;
+	height: 580px;
+	background: white;
+	border: 1px;
+	border-color: #dddddd;
+	float: left;
+	margin-left: 13.33px;
+	margin-top: 35px;
+	margin-right: 13.33px;
+	margin-bottom: 35px;
+	position:relative;
+	overflow: auto;
 }
 
 h2 {
@@ -164,6 +184,77 @@ textarea {
 	width: 620px;
 }
 
+#portfolio1 {
+	height: 150px;
+	width: 200px;
+	background-image: url(../images/bread.jpeg);
+	background-size: 200px 150px;
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	margin: 0 0 10px 83.33px;
+
+}
+
+#portfolio2 {
+	height: 150px;
+	width: 200px;
+	background-image: url(../images/bridge.jpeg);
+	background-size: 200px 150px;
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	margin: 0 83.33px 10px 83.33px;
+}
+#portfolio3 {
+	height: 150px;
+	width: 200px;
+	background-image: url(../images/music.jpeg);
+	background-size: 200px 150px;
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	margin: 0 0 5px 83.33px;
+}
+#portfolio4 {
+	height: 150px;
+	width: 200px;
+	background-image: url(../images/pig.jpeg);
+	background-size: 200px 150px;
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	margin: 0 83.33px 10px 83.33px;
+}
+#portfolio5 {
+	height: 150px;
+	width: 200px;
+	background-image: url(../images/vegas.jpeg);
+	background-size: 200px 150px;
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	margin: 0 0 10px 83.33px;
+}
+
+.innerPortfolio {
+	position: absolute;
+	bottom: 0;
+	background-color: #4aaaa5;
+	height: 50px;
+	width: 200px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.portfolioText {
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
 #divConnect {
 	background: white;
 	float: left;
@@ -171,7 +262,6 @@ textarea {
 	margin-right: 13.33px;
 	width: 270px;
 	height: 150px;
-
 
 }
 
