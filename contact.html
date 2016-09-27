@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html>
 		<header>
-		<!--link to css-->
+		<!--link to css stlye-->
 			<link rel="stylesheet" href="assets/css/style.css">
 			<title>
 			About Me
@@ -9,40 +9,62 @@
 		</header>
 
 		<body>
-			<section>
+			<section id="containerHeader">
 				<div id="headerName">
 					<h1>
 					Eric Hirshfield-Yamanishi
 					</h1>
 				</div>
-				<p class="headerLinks">
-					About
+				<p id="headerLinkContact">
+					Contact
 				</p>
-				<p class="headerLinks">
+				<p id="headerLinkPortfolio">
 					Portfolio
 				</p>
-				<p class="headerLinks">
-					Contact
+				<p id="headerLinkAbout">
+					About
 				</p>
 			</section>
 
-			<section id="containerCenter">
-				<div id="centerAboutMe">
+			<section id="containerMain">
+				<div id="divMainContact">
 					<h2>
 						Contact
 					</h2>
-
-					<!--Dividing Line that needs work-->
-					<hr>
 					
+					<form id="formSheet">
+  						Name <br>
+  						<input type="text" class="textBox" name="name" value="John Cat">
+						<br><br>
+  						Email <br>
+  						<input type="text" class="textBox" name="email" value="catman@meowmix.com">
+  						<br><br>Message<br>
+  						<textarea rows="8" cols="80"></textarea>
+  						<br>
+  						<input type="submit" class="submitButton" value="Submit">
+					</form>
+
 				</div>
-				<div id="centerConnect">
+
+				<div id="divConnect">
+					<h3>
+						Connect with Me
+					</h3>
+					<hr id="lineBreakConnect">
+
+					<a  href="https://github.com/ehirshfield"><img id="githubIcon" src="assets/images/github.png" alt="github connect picture/link" /></a>
+
+					<a href="https://www.linkedin.com/in/eric-hirshfield-yamanishi-29b13b9b"><img id="linkedinIcon" src="assets/images/linkedin.png" alt="linkedin connect picture/link" /></a>
+
+					<a href="http://stackoverflow.com/users/6856389/eric-hirshfield"><img id="stackoverflowIcon" src="assets/images/stackoverflow.png" alt="stackoverflow connect picture/link" /></a>
+
 				</div>
+
 			</section>
 
 			<section id="footer">
-				<p>
-					Copyright Eric Hirshfield-Yamanishi
+				<p id="footerText">
+					Copyright 2016 Eric Hirshfield-Yamanishi
 				</p>
 			</section>
 	
