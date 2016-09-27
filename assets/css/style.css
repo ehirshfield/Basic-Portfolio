@@ -239,7 +239,7 @@ textarea {
 
 .innerPortfolio {
 	position: absolute;
-	bottom: 0;
+	bottom: 2mm;
 	background-color: #4aaaa5;
 	height: 50px;
 	width: 200px;
