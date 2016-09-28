@@ -23,7 +23,6 @@ body {
 }
 
 h1 {
-
 	color: #ffffff;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 
@@ -32,6 +31,7 @@ h1 {
 #headerLinkAbout {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	float: right;
+	margin-top:35px;
 	padding-right: 20px;
 	vertical-align: middle;
 	text-align: center;
@@ -42,6 +42,7 @@ h1 {
 #headerLinkPortfolio {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	float: right;
+	margin-top:35px;
 	padding-left: 20px;
 	padding-right: 20px;
 	border-left: solid 1px #cccccc;
@@ -54,6 +55,7 @@ h1 {
 #headerLinkContact {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	float: right;
+	margin-top:35px;
 	padding-left: 20px;
 	border-left: solid 1px #cccccc;
 	margin-right: 13.33px;
