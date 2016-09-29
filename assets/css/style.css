@@ -1,8 +1,8 @@
-body {
-	width: 960px;
+/*body {
+	width: 960px;		Changed this due to misleading directions about width
 	height: 725px;
 
-}
+}*/
 
 #containerHeader{
 	height: 75px;
@@ -19,7 +19,7 @@ body {
 	background: #4aaaa5;
 	vertical-align: middle;
 	text-align: center;
-	margin-left: 13.33px;
+	margin-left: 15%;
 
 }
 
@@ -64,9 +64,9 @@ h1 {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	float: right;
 	margin-top:35px;
+	margin-right: 15%;
 	padding-left: 20px;
 	border-left: solid 1px #cccccc;
-	margin-right: 13.33px;
 	vertical-align: middle;
 	text-align: center;
 	color: #777777;
@@ -75,20 +75,27 @@ h1 {
 }
 
 #containerMain {
-	width: 960px;
-	height: 575px;
+	/*width: 960px;
+	height: 575px;*/
+	width: 100%;
+	height:100%;
 	background-image: url(../images/new_year_background/new_year_background.png);
 	background-repeat: repeat;
 	overflow: auto;
+	position: relative;
 	
 }
 
 #containerMainPortfolio {
-	width: 960px;
-	height: 650px;
+	/*width: 960px;
+	height: 650px;*/
+	width: 100%;
+	height: 100%;
 	background-image: url(../images/new_year_background/new_year_background.png);
 	background-repeat: repeat;
 	overflow: auto;
+	position: relative;
+	
 	
 }
 
@@ -100,7 +107,7 @@ h1 {
 	border: 1px;
 	border-color: #dddddd;
 	float: left;
-	margin-left: 13.33px;
+	margin-left: 15%;
 	margin-top: 35px;
 	margin-right: 13.33px;
 	margin-bottom: 35px;
@@ -114,7 +121,7 @@ h1 {
 	border: 1px;
 	border-color: #dddddd;
 	float: left;
-	margin-left: 13.33px;
+	margin-left: 15%;
 	margin-top: 35px;
 	margin-right: 13.33px;
 	margin-bottom: 35px;
@@ -128,7 +135,7 @@ h1 {
 	border: 1px;
 	border-color: #dddddd;
 	float: left;
-	margin-left: 13.33px;
+	margin-left: 15%;
 	margin-top: 35px;
 	margin-right: 13.33px;
 	margin-bottom: 35px;
@@ -275,9 +282,9 @@ textarea {
 
 .divConnect {
 	background: white;
-	float: left;
+	float: right;
 	margin-top: 35px;
-	margin-right: 13.33px;
+	margin-right: 15%;
 	width: 270px;
 	height: 150px;
 
